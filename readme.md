@@ -12,6 +12,8 @@ Configuration
 
 CHMOD 777 or 755 blocked_ip.txt if you plan to record blocked IP into txt file
 
+"All queries to http:BL should be run against your local DNS server which, if it does not have an authoritative answer, will hand the query off to a more authoritative DNS server"
+
 For more documentation please visit http://www.projecthoneypot.org/httpbl_api.php
 
 ### Example config
